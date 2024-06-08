@@ -1,0 +1,28 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/backgrounds/bg-purple.jpg)"
+    }
+  },
+  "content": {
+    "section": [
+      {
+        "type": "text-heading",
+        "value": "Hey Champ! Ready to start an amazing journey filled with fun and learning?"
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "secondary",
+        "content": [
+          {
+            "type": "text",
+            "value": "Get Started"
+          }
+        ]
+      }
+    ]
+  }
+}

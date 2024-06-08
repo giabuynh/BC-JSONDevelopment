@@ -1,0 +1,110 @@
+{
+  "template": "activity-feedback-form",
+  "formStyle": "top-bottom",
+  "animateStyle": "top-bottom",
+  "steps": [
+    {
+      "isRequired": true,
+      "lable": "feedback",
+      "title": [
+        {
+          "type": "text-heading",
+          "value": "Did you have fun in learning this module?"
+        },
+        {
+          "type": "text",
+          "value": "Planning your expenses is an important factor in managing your finances."
+        },
+        {
+          "type": "text",
+          "value": "Expenses can be categorized into three categories: Fixed, Variable, and Periodic."
+        }
+      ],
+      "type": "option-button",
+      "multiselect": false,
+      "allowOther": true,
+      "otherOptionText": "Add Your Opinion",
+      "optionsFlow": "horizontal",
+      "options": [
+        {
+          "id": 1,
+          "content": [
+            {
+              "type": "image",
+              "value": "/assets/icons/confused.png",
+              "style": {
+                "width": "9rem",
+                "height": "9rem",
+                "maxHeight": "9rem"
+              }
+            },
+            {
+              "type": "text",
+              "value": "I was lost."
+            }
+          ],
+          "style": {
+            "width": "12rem",
+            "maxWidth": "12rem"
+          }
+        },
+        {
+          "id": 2,
+          "content": [
+            {
+              "type": "image",
+              "value": "/assets/icons/neutral.png",
+              "style": {
+                "width": "9rem",
+                "height": "9rem",
+                "maxHeight": "9rem"
+              }
+            },
+            {
+              "type": "text",
+              "value": "I figured it out."
+            }
+          ],
+          "style": {
+            "width": "12rem",
+            "maxWidth": "12rem"
+          }
+        },
+        {
+          "id": 3,
+          "content": [
+            {
+              "type": "image",
+              "value": "/assets/icons/smile.png",
+              "style": {
+                "width": "9rem",
+                "height": "9rem",
+                "maxHeight": "9rem"
+              }
+            },
+            {
+              "type": "text",
+              "value": "I did greate."
+            }
+          ],
+          "style": {
+            "width": "12rem",
+            "maxWidth": "12rem"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "id": 1,
+          "variant": "primary",
+          "contents": [
+            {
+              "type": "text",
+              "value": "Ok"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

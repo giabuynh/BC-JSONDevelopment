@@ -1,0 +1,58 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 1,
+    "multiSelect": false,
+    "selectUntilCorrect": true,
+    "question": {
+      "id": 1,
+      "content": [
+        {
+          "type": "text",
+          "value": "Max bought snacks and treats worth $20 to consume when hanging out with friends over the weekend."
+        }
+      ]
+    },
+    "optionsFlow": "horizontal",
+    "options": [
+      {
+        "id": 1,
+        "isCorrect": false,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Fixed Expense"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "isCorrect": true,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Variable Expense"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "isCorrect": false,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Periodic Expense"
+          }
+        ]
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "The amount spent on snacks and treats can change based on Max's choices and social activities, making it a Variable Expense."
+      }
+    ]
+  }
+}

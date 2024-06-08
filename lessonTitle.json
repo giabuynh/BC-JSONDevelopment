@@ -1,0 +1,39 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/backgrounds/bg-purple.jpg)"
+    }
+  },
+  "content": {
+    "section": [
+      {
+        "type": "image",
+        "value": "/assets/icons/start.svg",
+        "style": {
+          "height": "5vh"
+        }
+      },
+      {
+        "type": "text-heading",
+        "value": "Expenses and Their Types: Mastering Your Financial Outflows"
+      },
+      {
+        "type": "text",
+        "value": "Learn proven techniques to manage your debts wisely, reduce financial burdens, and take control of your financial journey."
+      }
+    ],
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "content": [
+          {
+            "type": "image",
+            "value": "/assets/icons/play.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

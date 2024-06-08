@@ -1,0 +1,114 @@
+{
+  "template": "activity-mcq-tiles",
+  "mcq": {
+    "multiSelect": "true",
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "heading",
+          "value": "Hey Champ! From the following items, can you spot the ones that are \"needs\" according to you"
+        },
+        {
+          "type": "text-medium",
+          "value": "Select all that apply",
+          "style": {
+            "color": "#DD5D1A"
+          }
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "content": [
+          {
+            "type": "image",
+            "value": "/assets/images/smartphone.svg"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/textbook.svg"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/winter-jackete.svg"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/video-game-console.svg"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 5,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/groceries.svg"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 6,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/school-shoes.svg"
+          }
+        ],
+        "isCorrect": true
+      },
+      {
+        "id": 7,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/lunch.svg"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 8,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/movie-ticket.svg"
+          }
+        ],
+        "isCorrect": false
+      },
+      {
+        "id": 9,
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/images/t-shirt.svg"
+          }
+        ],
+        "isCorrect": true
+      }
+    ]
+  }
+}

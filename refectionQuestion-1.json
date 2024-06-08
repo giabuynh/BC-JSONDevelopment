@@ -1,0 +1,51 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "multiSelect": true,
+    "quetion": {
+      "id": 1,
+      "content": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Hey, Champ! Do you plan your upcoming expenses?"
+        }
+      ]
+    },
+    "options": [
+      {
+        "id": 1,
+        "content": [
+          {
+            "type": "text",
+            "value": "Yes, I am very particular about it!"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "content": [
+          {
+            "type": "text",
+            "value": "Sometimes"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "content": [
+          {
+            "type": "text",
+            "value": "No, I just live in the moment!"
+          }
+        ]
+      }
+    ]
+  }
+}

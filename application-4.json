@@ -1,0 +1,62 @@
+{
+  "template": "activity-reorder",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/backgrounds/bg-task.jpg)"
+    }
+  },
+  "dragAndDrop": {
+    "subjective": true,
+    "question": [
+      {
+        "type": "image",
+        "value": "/assets/icons/question-mark.svg",
+        "style": {
+          "height": "4.5rem"
+        }
+      },
+      {
+        "type": "text-medium",
+        "value": "According to you while planning your spending, which of these types of expenses should be prioritized?"
+      }
+    ],
+    "categories": [
+      {
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Fixed"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Variable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "options": [
+          {
+            "content": [
+              {
+                "type": "text",
+                "value": "Periodic"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

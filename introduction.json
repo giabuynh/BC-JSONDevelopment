@@ -1,0 +1,22 @@
+{
+  "template": "readonly",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/backgrounds/bg-purple.jpg)"
+    }
+  },
+  "dialogues": [
+    {
+      "sender": "GreenLine",
+      "text": "Hi Champ! My name is Greenline, and I am here to help you on your journey to becoming financially smart."
+    },
+    {
+      "sender": "GreenLine",
+      "text": "In this journey, you will also meet your companions Ray and Max, who will be there with you throughout the modules."
+    },
+    {
+      "sender": "GreenLine",
+      "text": "You can discuss with me or ask me anything about the topics being covered in all the upcoming modules."
+    }
+  ]
+}

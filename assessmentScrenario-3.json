@@ -1,0 +1,58 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 1,
+    "multiSelect": false,
+    "selectUntilCorrect": true,
+    "question": {
+      "id": 1,
+      "content": [
+        {
+          "type": "text",
+          "value": "Max set aside $10 each month into a savings account for her future goals."
+        }
+      ]
+    },
+    "optionsFlow": "horizontal",
+    "options": [
+      {
+        "id": 1,
+        "isCorrect": true,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Fixed Expense"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "isCorrect": false,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Variable Expense"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "isCorrect": false,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Periodic Expense"
+          }
+        ]
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "Max consistently saves $10 each month, and the amount remains the same, making it a Fixed Expense dedicated to building his emergency fund."
+      }
+    ]
+  }
+}

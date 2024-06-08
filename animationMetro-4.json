@@ -1,0 +1,64 @@
+{
+  "template": "activity-conversation",
+  "conversation": {
+    "background": "/assets/backgrounds/bg-metro.svg",
+    "foreground": "/assets/backgrounds/fr-1.svg",
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "MAX",
+        "color": "#2CC3BF",
+        "url": "/assets/characters/max.png",
+        "dialogues": [
+          {
+            "type": "text",
+            "value": "Yep, we got our textbooks and everything. Plus, we've set some money aside for unexpected expenses."
+          }
+        ],
+        "type": "animation",
+        "activeAnimation": "right_loop",
+        "idleAnimation": "right_idle",
+        "animations": [
+          {
+            "type": "json",
+            "value": "/assets/animations/max.json"
+          },
+          {
+            "type": "atlas",
+            "value": "/assets/animations/max.atlas"
+          }
+        ]
+      },
+      {
+        "name": "RAY",
+        "color": "#E85146",
+        "dialogues": [],
+        "url": "/assets/characters/ray.png",
+        "type": "animation",
+        "activeAnimation": "left_loop",
+        "idleAnimation": "left_idle",
+        "animations": [
+          {
+            "type": "json",
+            "value": "/assets/animations/ray.json"
+          },
+          {
+            "type": "atlas",
+            "value": "/assets/animations/ray.atlas"
+          }
+        ]
+      }
+    ]
+  }
+}

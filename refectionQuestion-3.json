@@ -1,0 +1,27 @@
+{
+  "template": "activity-subjective",
+  "templateOptions": {
+    "styles": {
+      "background": "/assets/backgrounds/bg-purple.jpg"
+    }
+  },
+  "subjective": {
+    "type": "large",
+    "quetions": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text",
+          "value": "Do you think planning can help manage expenses better? If yes, How?"
+        }
+      ]
+    }
+  }
+}

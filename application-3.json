@@ -1,0 +1,119 @@
+{
+  "template": "activity-table",
+  "templateOptions": {
+    "styles": {
+      "backgroundImage": "url(/assets/backgrounds/bg-task.jpg)"
+    }
+  },
+  "table": {
+    "question": {
+      "id": 1,
+      "contents": [
+        {
+          "type": "image",
+          "value": "/assets/icons/question-mark.svg",
+          "style": {
+            "height": "4.5rem"
+          }
+        },
+        {
+          "type": "text-medium",
+          "value": "Hey, Champ! Now Let's start by categorising the expenses!"
+        }
+      ]
+    },
+    "columns": [
+      {
+        "type": "readonly",
+        "color": "#EBF5FF",
+        "header": [
+          {
+            "type": "text-medium",
+            "value": "Name of Expense",
+            "style": {
+              "fontWeight": "800"
+            }
+          }
+        ]
+      },
+      {
+        "type": "readonly",
+        "color": "#EBF5FF",
+        "header": [
+          {
+            "type": "text-medium",
+            "value": "Description",
+            "style": {
+              "fontWeight": "800"
+            }
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "value": [
+          "Fixed",
+          "Variable",
+          "Periodic"
+        ],
+        "color": "#EEFFF3",
+        "header": [
+          {
+            "type": "text-medium",
+            "value": "Type of Expense",
+            "style": {
+              "fontWeight": "800"
+            }
+          }
+        ]
+      }
+    ],
+    "row": [
+      [
+        {
+          "data": "School Supplies"
+        },
+        {
+          "data": "Textbooks, notebooks, pens, and other school materials"
+        },
+        {}
+      ],
+      [
+        {
+          "data": "Tuition Fees"
+        },
+        {
+          "data": "Monthly fees for education"
+        },
+        {}
+      ],
+      [
+        {
+          "data": "Lunch and Snacks"
+        },
+        {
+          "data": "Money for daily meals at school or snacks"
+        },
+        {}
+      ],
+      [
+        {
+          "data": "Transportation"
+        },
+        {
+          "data": "Monthly bus fare for commuting to school"
+        },
+        {}
+      ],
+      [
+        {
+          "data": "Clothing"
+        },
+        {
+          "data": "Budget for clothing, including uniforms or casual wear"
+        },
+        {}
+      ]
+    ]
+  }
+}

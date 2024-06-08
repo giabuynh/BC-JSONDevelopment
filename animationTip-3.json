@@ -1,0 +1,83 @@
+{
+  "template": "activity-conversation",
+  "conversation": {
+    "background": "/assets/backgrounds/bg-mall.jpg",
+    "foreground": "/assets/foregrounds/fr-1.svg",
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "/assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "GREENLINE",
+        "color": "#72BD1B",
+        "url": "/assets/characters/greenline.png",
+        "dialogues": [
+          {
+            "type": "text",
+            "value": "Yes let me help you! Segregating expenses between needs and wants is also a good beginning. But to make it more efficient, you can further categorize your expenses into three parts: Fixed, Variable, and Periodic Expenses."
+          }
+        ],
+        "type": "animation",
+        "activeAnimation": "right_loop",
+        "idleAnimation": "right_idle",
+        "animations": [
+          {
+            "type": "json",
+            "value": "/assets/animations/greenline.json"
+          },
+          {
+            "type": "atlas",
+            "value": "/assets/animations/greenline.atlas"
+          }
+        ]
+      },
+      {
+        "name": "MAX",
+        "color": "#2CC3BF",
+        "url": "/assets/characters/max.png",
+        "dialogues": [],
+        "type": "animation",
+        "activeAnimation": "left_loop",
+        "idleAnimation": "left_idle",
+        "animations": [
+          {
+            "type": "json",
+            "value": "/assets/animations/max.json"
+          },
+          {
+            "type": "atlas",
+            "value": "/assets/animations/max.atlas"
+          }
+        ]
+      },
+      {
+        "name": "RAY",
+        "color": "#E85146",
+        "url": "/assets/characters/ray.png",
+        "dialogues": [],
+        "type": "animation",
+        "activeAnimation": "left_loop",
+        "idleAnimation": "left_idle",
+        "animations": [
+          {
+            "type": "json",
+            "value": "/assets/animations/ray.json"
+          },
+          {
+            "type": "atlas",
+            "value": "/assets/animations/ray.atlas"
+          }
+        ]
+      }
+    ]
+  }
+}

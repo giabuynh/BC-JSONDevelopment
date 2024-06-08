@@ -1,0 +1,38 @@
+{
+  "template": "activity-feedback-form",
+  "formStyle": "top-bottom",
+  "animateStyle": "top-bottom",
+  "steps": [
+    {
+      "isRequired": true,
+      "lable": "sumary",
+      "title": [
+        {
+          "type": "text-heading",
+          "value": "Module Sumary"
+        },
+        {
+          "type": "text",
+          "value": "Planning your expenses is an important factor in managing your finances."
+        },
+        {
+          "type": "text",
+          "value": "Expenses can be categorized into three categories: Fixed, Variable, and Periodic."
+        }
+      ],
+      "type": "readonly",
+      "actions": [
+        {
+          "id": 1,
+          "variant": "primary",
+          "contents": [
+            {
+              "type": "text",
+              "value": "Ok"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

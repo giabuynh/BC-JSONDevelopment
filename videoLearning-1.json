@@ -1,0 +1,82 @@
+{
+  "template": "activity-conversation",
+  "conversation": {
+    "background": "/assets/backgrounds/bg-purple.jpg",
+    "actions": [
+      {
+        "id": 1,
+        "variant": "icon",
+        "contents": [
+          {
+            "type": "image",
+            "value": "assets/icons/arrow-right.svg"
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "name": "GREENLINE",
+        "color": "#72BD1B",
+        "url": "/assets/characters/greenline.png",
+        "dialogues": [
+          {
+            "type": "text",
+            "value": "Come along, let me teach you more ways to manage your expenses better through this video."
+          }
+        ],
+        "type": "animation",
+        "activeAnimation": "right_loop",
+        "idleAnimation": "right_idle",
+        "animations": [
+          {
+            "type": "json",
+            "value": "assets/animations/greenline.json"
+          },
+          {
+            "type": "atlas",
+            "value": "assets/animations/greenline.atlas"
+          }
+        ]
+      },
+      {
+        "name": "MAX",
+        "color": "#2CC3BF",
+        "url": "/assets/characters/max.png",
+        "dialogues": [],
+        "type": "animation",
+        "activeAnimation": "left_loop",
+        "idleAnimation": "left_idle",
+        "animations": [
+          {
+            "type": "json",
+            "value": "/assets/animations/max.json"
+          },
+          {
+            "type": "atlas",
+            "value": "/assets/animations/max.atlas"
+          }
+        ]
+      },
+      {
+        "name": "RAY",
+        "color": "#E85146",
+        "url": "/assets/characters/ray.png",
+        "dialogues": [],
+        "type": "animation",
+        "activeAnimation": "left_loop",
+        "idleAnimation": "left_idle",
+        "animations": [
+          {
+            "type": "json",
+            "value": "/assets/animations/ray.json"
+          },
+          {
+            "type": "atlas",
+            "value": "/assets/animations/ray.atlas"
+          }
+        ]
+      }
+    ]
+  }
+}

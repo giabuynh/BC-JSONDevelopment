@@ -1,0 +1,58 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 1,
+    "multiSelect": false,
+    "selectUntilCorrect": true,
+    "question": {
+      "id": 1,
+      "content": [
+        {
+          "type": "text",
+          "value": "Max paid $50 for a monthly bus pass to commute to school."
+        }
+      ]
+    },
+    "optionsFlow": "horizontal",
+    "options": [
+      {
+        "id": 1,
+        "isCorrect": true,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Fixed Expense"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "isCorrect": false,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Variable Expense"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "isCorrect": false,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Periodic Expense"
+          }
+        ]
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "The expense is a regular, consistent amount ($50) paid monthly for commuting. It remains the same each month, making it a Fixed Expense."
+      }
+    ]
+  }
+}

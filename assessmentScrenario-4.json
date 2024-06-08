@@ -1,0 +1,58 @@
+{
+  "template": "activity-mcq",
+  "mcq": {
+    "variant": "assessment",
+    "totalQuestions": 5,
+    "questionNumber": 1,
+    "multiSelect": false,
+    "selectUntilCorrect": true,
+    "question": {
+      "id": 1,
+      "content": [
+        {
+          "type": "text",
+          "value": "Max buys new clothes for the school year, spending $300 at the beginning of each academic year."
+        }
+      ]
+    },
+    "optionsFlow": "horizontal",
+    "options": [
+      {
+        "id": 1,
+        "isCorrect": false,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Fixed Expense"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "isCorrect": false,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Variable Expense"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "isCorrect": true,
+        "contents": [
+          {
+            "type": "text",
+            "value": "Periodic Expense"
+          }
+        ]
+      }
+    ],
+    "explaination": [
+      {
+        "type": "text",
+        "value": "The expense occurs annually at the start of each school year, and it's not a regular monthly or weekly cost, making it a Periodic Expense."
+      }
+    ]
+  }
+}
